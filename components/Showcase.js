@@ -1,0 +1,9 @@
+import styles from '@/styles/Showcase.module.css'
+export default function Showcase() {
+    return (
+        <div className={styles.showcase}>
+            <h1>Welcome to Party!</h1>
+            <h2>Find the Latest Dj events/Music Concerts</h2>
+        </div>
+    )
+}
